@@ -1,0 +1,44 @@
+body
+{
+    background-color: darkcyan;
+}
+
+h1
+{
+    font-size: 50px;
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    margin-top:  50px;
+    
+}
+
+.maindiv
+{
+    width: 75%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(goa/f1.jpeg);
+    background-size: 100% 100%;
+    box-shadow: 2px 4px 10px 5px white;
+    animation: slider 10s infinite linear;
+        
+}
+
+@keyframes slider
+{
+    0% {background-image: url(goa/f1.jpeg);}
+    
+    20%{background-image: url(goa/f2.jpg);}
+    
+    40%{background-image: url(goa/f3.jpg);}
+    
+    60%{background-image: url(goa/f4.jpg);}
+    
+    80%{background-image: url(goa/f5.jpg);}
+    
+}
